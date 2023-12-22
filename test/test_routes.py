@@ -31,3 +31,22 @@ def test_post_cart(client):
     assert response.status_code == 200
     assert response.data.decode("utf-8") == "data created"
 
+def test_get_cart(client):
+    cart_id = 1
+
+    response = client.get(f'/api/cart/{cart_id}')
+
+    assert response.status_code == 200
+
+    data = json.loads(response.data)
+
+    assert 'id' in data
+    assert 'coupon_code' in data
+    assert 'shipping_fee' in data
+    assert 'cart_items' in data
+    assert 'subtotal' in data
+    assert 'grandtotal' in data
+    assert 'eligible_promo' in data
+
+    assert data['id'] == cart_id
+
