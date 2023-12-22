@@ -8,7 +8,7 @@ Mata Kuliah : Testing QA
 # Tugas
 ## Tugas 1
 Melengkapi fungsi test_post_cart
-[fungsi test_post_cart](<>)
+[fungsi test_post_cart](<https://github.com/hudilman/simplecart-pytest-cicd/blob/main/img/Screen%20Shot%202023-12-22%20at%2019.54.56.png>)
 Hasil pytest nya
 [Run fungsi test_post_cart](<>)
 
