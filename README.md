@@ -1,11 +1,33 @@
-# SimpleCart
-implement simple cart and promotion
+# Laporan Tugas UAS TESTING QA - Mohamad Ilman Huda
 
-# Setup Guide
+## Biodata
+Nama : Mohamad Ilman huda \
+Kelas : 07TPLE007 \
+Mata Kuliah : Testing QA
+
+# Tugas
+## Tugas 1
+Melengkapi fungsi test_post_cart
+[fungsi test_post_cart](<>)
+Hasil pytest nya
+[Run fungsi test_post_cart](<>)
+
+## Tugas 2
+Membuat Ci / Github Actions yang dapat menjalankan pytest dan pytest coverage, hasil dari gagal dan success nya
+[github actions pytest](<>)
+
+## Tugas 3
+Melengkapi fungsi get cart dan untuk create factory ditambahkan jg data untuk model cart
+[get_cart](<>)
+[data create factory model cart](<>)
+Hasil Pytest nya
 
 
-## Install, create and activate virtualenv
-https://medium.com/analytics-vidhya/virtual-environment-6ad5d9b6af59
+## Install Requirement
+
+## Feature
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)&nbsp;&nbsp;
+[![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/en/2.2.x/)
 
 ## Install requirements
 
@@ -60,7 +82,6 @@ check test coverage
 
     pytest --cov=myproj tests/
 
-
 ## Debt
 
  - Cart Update
@@ -68,3 +89,5 @@ check test coverage
  - Unit test
  - Unit test coverage
  - CI setup 
+
+
