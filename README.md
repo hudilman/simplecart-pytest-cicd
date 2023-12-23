@@ -5,25 +5,17 @@ Nama : Mohamad Ilman huda \
 Kelas : 07TPLE007 \
 Mata Kuliah : Testing QA
 
-# Tugas
-## Tugas 1
-Melengkapi fungsi test_post_cart
+# Tugas UAS
+## Melengkapi fungsi test_post_cart
+
 ![run fungsi test_post_card](https://github.com/hudilman/simplecart-pytest-cicd/blob/main/img/Screen%20Shot%202023-12-22%20at%2019.54.56.png?raw=true)
 
 Hasil pytest nya
 ![run fungsi test_post_card](https://github.com/hudilman/simplecart-pytest-cicd/blob/main/img/Screen%20Shot%202023-12-22%20at%2019.57.05.png?raw=true)
 
-## Tugas 2
-Membuat Ci / Github Actions yang dapat menjalankan pytest dan pytest coverage, hasil dari gagal dan success nya
-![github actions](https://github.com/hudilman/simplecart-pytest-cicd/blob/main/img/cicd.png?raw=true)
+## Membuat Ci / Github Actions yang dapat menjalankan pytest dan pytest coverage, hasil dari gagal dan success nya
 
-## Tugas 3
-Melengkapi fungsi get cart dan untuk create factory ditambahkan jg data untuk model cart
-![get_cart](https://github.com/hudilman/simplecart-pytest-cicd/blob/main/img/get_cart.png?raw=true)
-![data create factory model cart](https://github.com/hudilman/simplecart-pytest-cicd/blob/main/img/create_factory_model.png?raw=true)
-Hasil Pytest nya
-![pytest tugas get_cart](https://github.com/hudilman/simplecart-pytest-cicd/blob/main/img/pytest_get_cart.png?raw=true)
-![pytest tugas create_factory](https://github.com/hudilman/simplecart-pytest-cicd/blob/main/img/pytest_create_factory_model.png?raw=true)
+![github actions](https://github.com/hudilman/simplecart-pytest-cicd/blob/main/img/cicd.png?raw=true)
 
 ## Install Requirement
 
